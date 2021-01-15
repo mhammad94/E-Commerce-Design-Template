@@ -3,6 +3,32 @@ body {
     font-size: 15px;
 }
 
+.hidden {
+    display: none;
+}
+
+h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.pt-10{
+    padding-top: 10px;
+}
+
+.pb-10{
+    padding-bottom: 10px;
+}
+
+
+.pt-15{
+    padding-top: 15px;
+}
+
+.pb-15{
+    padding-bottom: 15px;
+}
 
 /** Hero Section **/
 
@@ -11,9 +37,210 @@ body {
 }
 
 .dropdown-menu.show {
+    transform: translate3d(-20px, 10px, 0px);
+    display: flex !important;
+}
+
+.language-dropdown-menu.show {
     transform: translate3d(-50px, 24px, 0px) !important;
 }
 
-.upper-nav .navbar-brand img {
-    width: 100px !important;
+.upper-nav .upper-nav-searhbar {
+    padding-top: 20px;
+}
+
+.upper-nav .shopping-cart {
+    padding-top: 35px;
+}
+
+.upper-nav .upper-nav-searhbar a {
+    border: 1px solid #ced4da;
+    padding: 5px 10px 5px 10px;
+    line-height: 2.4rem;
+}
+
+.upper-nav .navbar-brand {
+    width: 100px;
+}
+
+.upper-nav .form-control {
+    padding: 0.25rem 1rem !important;
+    border-radius: unset !important;
+    line-height: 2.5 !important;
+}
+
+.upper-nav .btn {
+    padding: 0.25rem 1rem !important;
+    border: 1px solid #ced4da;
+    border-radius: unset !important;
+    line-height: 2.5rem !important;
+}
+
+.upper-nav .form-inline {
+    width: 70% !important;
+}
+
+.middle-nav {
+    background-color: #1d3484;
+}
+
+.middle-nav .nav-link {
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: bolder !important;
+}
+
+.middle-nav .nav-item {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
+
+.lowernav-brand {
+    background-color: #00bbf8;
+}
+
+.middle-nav h5 {
+    padding: 20px 20px !important;
+    font-weight: 900 !important;
+}
+
+.middle-nav-gift {
+    background-color: #00bbf8;
+    padding: 20px 20px;
+}
+
+.lower-nav .navbar-nav {
+    margin: 0 auto;
+}
+
+.lower-nav .navbar-nav .nav-item{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.lower-nav .navbar-nav .nav-item .nav-link{
+    font-weight: 800;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #00bbf8 !important;
+}
+
+.lower-nav .navbar-nav .active .nav-link{
+    color:#00bbf8;
+}
+
+/*** Hero End ***/
+
+
+/** Products Start **/
+
+.top-products-row {
+    padding: 15px;
+}
+
+.products .nav-tabs {
+    border-bottom: unset !important;
+}
+
+.products p {
+    font-weight: 800;
+    color: #00bbf8;
+}
+
+.products .nav-tabs .nav-item {
+    margin-left: 1px;
+}
+
+.products .nav-tabs .nav-link.disabled {
+    color: #00bbf8 !important;
+    font-weight: 900 !important;
+}
+
+.products .Electronic-Devices-hero {
+    background-color: #d2ebf2;
+}
+
+
+/** Product Bannner **/
+
+
+.main-banner{
+    background-color: #d2ebf2;
+    padding: 80px 0px;
+    padding-bottom: 50px;
+}
+
+.main-banner-mobile-img{
+    width: 300px;
+    height: 100%;
+}
+
+.main-banner-content-items h4{
+    color: grey;
+    font-weight: 700;
+}
+
+.main-banner-content-items h5{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.main-banner-content-items .btn-primary{
+    background-color: #00bbf8 !important;
+    border-color: #00bbf8 !important;
+}
+
+.lower-banner-fashion{
+    background-color:#d2ebf2 ;
+}
+
+.lower-banner-fashion .lower-banner-fashion-img{
+    width: 250px;
+}
+
+
+.lower-banner h3, h6, p{
+    font-weight: 800 !important;
+}
+
+.lower-banner-camera{
+    background-color:#d2ebf2;
+}
+
+.lower-banner-camera .lower-banner-camera-img{
+    width: 193px;
+}
+
+.lower-banner-electronic{
+    background-color:#d2ebf2;
+}
+
+.lower-banner-electronic .lower-banner-electronic-img{
+    width: 132px;
+}
+
+.banner-sales-pill{
+    background-color: #1d3484;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner-sales-pill-border{
+    border-radius: 50px;
+    border-style: dashed;
+    width: 75%;
+    margin: 0 auto;
+    padding: 2px 2px 2px 2px;
+    border-color: #00bbf8;
+}
+
+.banner-sales-pill h3{
+    font-size: 20px;
+}
+
+.banner-sales h3, h1{
+    font-weight: 800;
 }
