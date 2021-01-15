@@ -7,28 +7,31 @@ body {
     display: none;
 }
 
-h2{
+h2 {
     font-size: 60px;
     font-weight: bold;
 }
 
-
-.pt-10{
+.pt-10 {
     padding-top: 10px;
 }
 
-.pb-10{
+.pb-10 {
     padding-bottom: 10px;
 }
 
-
-.pt-15{
+.pt-15 {
     padding-top: 15px;
 }
 
-.pb-15{
+.pb-15 {
     padding-bottom: 15px;
 }
+
+.bg-offwhite {
+    background-color: #f9f9f9;
+}
+
 
 /** Hero Section **/
 
@@ -113,22 +116,23 @@ h2{
     margin: 0 auto;
 }
 
-.lower-nav .navbar-nav .nav-item{
+.lower-nav .navbar-nav .nav-item {
     margin-right: 10px;
     margin-left: 10px;
 }
 
-.lower-nav .navbar-nav .nav-item .nav-link{
+.lower-nav .navbar-nav .nav-item .nav-link {
     font-weight: 800;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover {
     color: #00bbf8 !important;
 }
 
-.lower-nav .navbar-nav .active .nav-link{
-    color:#00bbf8;
+.lower-nav .navbar-nav .active .nav-link {
+    color: #00bbf8;
 }
+
 
 /*** Hero End ***/
 
@@ -145,11 +149,26 @@ h2{
 
 .products p {
     font-weight: 800;
-    color: #00bbf8;
 }
 
 .products .nav-tabs .nav-item {
     margin-left: 1px;
+}
+
+.products .nav-tabs .nav-item {
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 0px !important;
+}
+
+.products .nav-tabs .nav-item:hover {
+    border-top: 3px solid #00bbf8;
+    transition: 0.0004s ease-in all;
+}
+
+.products .nav-tabs .nav-link {
+    border: unset !important;
+    border-top-left-radius: unset !important;
+    border-top-right-radius: unset !important;
 }
 
 .products .nav-tabs .nav-link.disabled {
@@ -157,70 +176,79 @@ h2{
     font-weight: 900 !important;
 }
 
-.products .Electronic-Devices-hero {
-    background-color: #d2ebf2;
+.products .disabled-item {
+    border-top: unset !important;
+}
+
+.products i {
+    font-size: 7px;
+}
+
+.products p,
+h6 {
+    font-size: 15px !important;
 }
 
 
 /** Product Bannner **/
 
-
-.main-banner{
+.main-banner {
     background-color: #d2ebf2;
     padding: 80px 0px;
     padding-bottom: 50px;
 }
 
-.main-banner-mobile-img{
+.main-banner-mobile-img {
     width: 300px;
     height: 100%;
 }
 
-.main-banner-content-items h4{
+.main-banner-content-items h4 {
     color: grey;
     font-weight: 700;
 }
 
-.main-banner-content-items h5{
+.main-banner-content-items h5 {
     font-size: 25px;
     font-weight: 600;
 }
 
-.main-banner-content-items .btn-primary{
+.main-banner-content-items .btn-primary {
     background-color: #00bbf8 !important;
     border-color: #00bbf8 !important;
 }
 
-.lower-banner-fashion{
-    background-color:#d2ebf2 ;
+.lower-banner-fashion {
+    background-color: #d2ebf2;
 }
 
-.lower-banner-fashion .lower-banner-fashion-img{
+.lower-banner-fashion .lower-banner-fashion-img {
     width: 250px;
 }
 
-
-.lower-banner h3, h6, p{
+.lower-banner h3,
+h6,
+p {
     font-weight: 800 !important;
 }
 
-.lower-banner-camera{
-    background-color:#d2ebf2;
+.lower-banner-camera {
+    background-color: #d2ebf2;
 }
 
-.lower-banner-camera .lower-banner-camera-img{
+.lower-banner-camera .lower-banner-camera-img {
     width: 193px;
 }
 
-.lower-banner-electronic{
-    background-color:#d2ebf2;
+.lower-banner-electronic {
+    background-color: #d2ebf2;
 }
 
-.lower-banner-electronic .lower-banner-electronic-img{
+.lower-banner-electronic .lower-banner-electronic-img {
     width: 132px;
 }
 
-.banner-sales-pill{
+.banner-sales-pill {
     background-color: #1d3484;
     padding: 10px 10px 10px 10px;
     border-radius: 50px;
@@ -228,7 +256,7 @@ h2{
     margin: 0 auto;
 }
 
-.banner-sales-pill-border{
+.banner-sales-pill-border {
     border-radius: 50px;
     border-style: dashed;
     width: 75%;
@@ -237,10 +265,11 @@ h2{
     border-color: #00bbf8;
 }
 
-.banner-sales-pill h3{
+.banner-sales-pill h3 {
     font-size: 20px;
 }
 
-.banner-sales h3, h1{
+.banner-sales h3,
+h1 {
     font-weight: 800;
 }
